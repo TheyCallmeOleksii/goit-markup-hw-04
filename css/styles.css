@@ -334,6 +334,11 @@ body {
   | /Hero>
   |============================
 */
+/**
+  |============================
+  | 2 Section
+  |============================
+*/
 
 .superior-section {
 }
@@ -345,6 +350,14 @@ body {
 .superior-list-item {
   width: 264px;
 }
+.superior-icon-area {
+  display: flex;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  margin: 24px, 100px;
+  background-color: var(--color-cloud);
+}
 
 .superior-title {
   font-weight: 500;
@@ -353,6 +366,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   background-color: var(--color-white);
+}
+
+.superior-icon {
+  margin: 24px, 100px;
 }
 
 .portfolio-photo-title {
@@ -445,6 +462,8 @@ body {
 }
 .team-item {
   background-color: var(--color-white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -469,14 +488,70 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  margin-bottom: 8px;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.socials-item {
+}
+
+.socials-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--color-ocean);
+}
 /**
   |============================
   | /4 Section>
   |============================
 */
+/**
+  |============================
+  | <5 Section
+  |============================
+*/
 
+.partner {
+}
+.partner-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue);
+  padding-bottom: 72px;
+}
+.partner-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.partner-item {
+}
+
+/**
+  |============================
+  | /5 Srction>
+  |============================
+*/
 /**
   |============================
   | <Footer
@@ -487,6 +562,14 @@ body {
   background-color: var(--color-navy-blue);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-main-container {
+  display: flex;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer-link {
@@ -519,6 +602,41 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-cloud);
   width: 264px;
+}
+
+.footer-socials {
+  width: 208px;
+}
+
+.footel-socail-txt {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  padding-bottom: 16px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-iris);
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-green);
 }
 
 /**
