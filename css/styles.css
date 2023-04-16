@@ -481,7 +481,7 @@ body {
 }
 
 .team-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -577,7 +577,7 @@ body {
 
 /**
   |============================
-  | /5 Srction>
+  | /5 Section>
   |============================
 */
 /**
@@ -665,6 +665,10 @@ body {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--color-green);
+}
+
+.socials-icon {
+  fill: var(--color-cloud);
 }
 
 /**
