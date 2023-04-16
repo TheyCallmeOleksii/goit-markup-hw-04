@@ -546,12 +546,12 @@ body {
 .partner-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .partner-list {
   display: flex;
@@ -569,6 +569,7 @@ body {
 
 .partner-border {
   width: 168px;
+  height: 88px;
   background-color: var(--color-white);
   margin: auto;
   padding: 16px 32px;
