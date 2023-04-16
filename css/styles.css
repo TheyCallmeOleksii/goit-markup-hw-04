@@ -598,6 +598,7 @@ body {
 
 .footer-logo-container {
   margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-link {
