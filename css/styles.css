@@ -594,6 +594,7 @@ body {
 
 .footer-main-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-container {
@@ -635,6 +636,7 @@ body {
 
 .footer-socials {
   width: 208px;
+  margin-right: 120px;
 }
 
 .footel-socail-txt {
@@ -643,7 +645,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-social {
