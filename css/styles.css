@@ -568,7 +568,7 @@ body {
 }
 
 .partner-border {
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
   background-color: var(--color-white);
   margin: auto;
