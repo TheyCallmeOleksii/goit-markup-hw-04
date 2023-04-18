@@ -567,6 +567,7 @@ body {
 .partner-logo {
   display: inline-block;
   border: 16px 32px var(--color-navy-blue-modal);
+  fill: currentColor;
 }
 
 .partner-border {
