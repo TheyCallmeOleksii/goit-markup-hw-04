@@ -570,6 +570,11 @@ body {
   fill: currentColor;
 }
 
+.partner-logo:hover,
+.partner-logo:focus {
+  color: var (--color-ocean);
+}
+
 .partner-border {
   display: flex;
   align-items: center;
