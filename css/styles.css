@@ -581,12 +581,9 @@ body {
   justify-content: center;
   background-color: var(--color-white);
   color: var(--color-light-slate);
-  margin: auto;
   height: 100%;
-  padding: 16px 32px;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
-  gap: 24px;
 }
 
 .partner-border:hover,
@@ -744,7 +741,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-iris);
   background-color: var(--color-cloud);
-  cursor: pointer;
   border-radius: 4px;
   padding: 12px 24px;
   display: inline-block;
